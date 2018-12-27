@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{ 
+  background-image: url("asakusa.jpg");
+  background-size: cover;
+  background-position: 50% 50%;  
+}
+
+.wrapper{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 20px;
+  
+}
+
+li{
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+.menu{
+  border: 5px solid black;
+  height: 50px;
+}
+
+.content{
+  border: 5px solid black;
+  height: 380px;
+}
+
+.left-side{
+  width: 50%;
+} 
+
+.right-side{
+  width: 50%;
+}
+
+.today{
+  width: 50%;
+  height: 300px;
+  border: 1px solid blue;
+  display: inline-block;
+}
+
+.tommorow{
+  width: 50%;
+  height: 300px;
+  float: left;
+  border: 1px dotted black;
+  position: relative;
+  display: inline-block;
+}
+
+.tommorow span{
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;  
+}
+
+.tommorow img{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
